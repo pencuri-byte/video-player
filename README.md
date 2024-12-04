@@ -1,15 +1,24 @@
+Untuk membuat shortcut menuju bagian bahasa Inggris dan bahasa Indonesia dalam README, Anda bisa menggunakan tautan internal (anchor links). Berikut adalah contoh bagaimana Anda bisa melakukannya:
+
+### README.md
+
+```markdown
 # Video Player dengan Playlist dan Mode Gelap
+
+[English Version](#english-version) | [Versi Bahasa Indonesia](#versi-bahasa-indonesia)
+
+## Versi Bahasa Indonesia
 
 Proyek ini adalah contoh implementasi pemutar video dengan fitur playlist dan mode gelap menggunakan HTML, CSS, dan JavaScript.
 
-## Fitur
+### Fitur
 
 - Memutar video dari folder yang dipilih.
 - Navigasi video dengan tombol "Previous" dan "Next".
 - Playlist video yang dapat diklik untuk memutar video tertentu.
 - Mode gelap yang dapat diaktifkan dengan switch.
 
-## Cara Menggunakan
+### Cara Menggunakan
 
 1. Pilih folder yang berisi video dengan mengklik input file.
 2. Video pertama dalam folder akan otomatis diputar.
@@ -17,7 +26,7 @@ Proyek ini adalah contoh implementasi pemutar video dengan fitur playlist dan mo
 4. Klik pada item di playlist untuk memutar video tertentu.
 5. Aktifkan mode gelap dengan switch di sebelah kiri video.
 
-## Kode
+### Kode
 
 Berikut adalah kode lengkap untuk proyek ini:
 
@@ -261,4 +270,83 @@ Berikut adalah kode lengkap untuk proyek ini:
 </body>
 
 </html>
+```
 
+## English Version
+
+This project is an example implementation of a video player with playlist and dark mode features using HTML, CSS, and JavaScript.
+
+### Features
+
+- Play videos from a selected folder.
+- Navigate videos with "Previous" and "Next" buttons.
+- Clickable video playlist to play specific videos.
+- Dark mode toggle switch.
+
+### How to Use
+
+1. Select a folder containing videos by clicking the file input.
+2. The first video in the folder will automatically play.
+3. Use the "Previous" and "Next" buttons to navigate videos.
+4. Click on an item in the playlist to play a specific video.
+5. Toggle dark mode with the switch on the left side of the video.
+
+### Code
+
+Here is the complete code for this project:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Video</title>
+    <style>
+        *,
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 50%;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .video-component {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        video {
+            display: block;
+            width: 100%;
+            border: 5px solid crimson;
+        }
+
+        .btn {
+            border: 0;
+            padding: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 24px;
+            border-radius: 8px;
+            opacity: 0.7;
+        }
+
+        .btn-next {
+            background-color: crimson;
+            color: white;
+        }
+
+        .btn-prev {
+            background-color: #222222;
+           
