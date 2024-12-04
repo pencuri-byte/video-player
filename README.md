@@ -1,8 +1,3 @@
-Untuk membuat shortcut menuju bagian bahasa Inggris dan bahasa Indonesia dalam README, Anda bisa menggunakan tautan internal (anchor links). Berikut adalah contoh bagaimana Anda bisa melakukannya:
-
-### README.md
-
-```markdown
 # Video Player dengan Playlist dan Mode Gelap
 
 [English Version](#english-version) | [Versi Bahasa Indonesia](#versi-bahasa-indonesia)
